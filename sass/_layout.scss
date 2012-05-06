@@ -1,0 +1,32 @@
+$zen-column-count: 12;
+@import "zen";
+body {
+  @include zen-grid-container;
+  header,
+  [role=main],
+  footer {
+      @include zen-grid-item(12, 1);
+      @include zen-clear;
+  }
+  @media all and (max-width: 45em) {
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 1.25em;
+    }
+  }
+  @media all and (min-width: 45em) and (max-width: 65em) {
+    @import "layout-medium";
+  }
+  @media all and (min-width: 66em) {
+    @import "layout-large";
+  }
+  @media all and (min-width: 45em) {
+    @import "layout-footer";
+  }
+}
+.lt-ie9 {
+  @import "layout-large";
+  @import "layout-footer";
+}

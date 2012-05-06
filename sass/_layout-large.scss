@@ -1,0 +1,12 @@
+[role=main] section {
+  &:nth-child(3n+1) {
+    @include zen-grid-item(4, 1); // Span 1 columns starting in 1st column
+    @include zen-clear;
+  }
+  &:nth-child(3n+2) {
+    @include zen-grid-item(4, 5);
+  }
+  &:nth-child(3n+3) {
+    @include zen-grid-item(4, 9);
+  }
+}
