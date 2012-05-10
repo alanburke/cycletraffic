@@ -16,15 +16,15 @@ body {
       font-size: 1.25em;
     }
   }
-  @media all and (min-width: 45em) and (max-width: 65em) {
-    @import "layout-medium";
-  }
-  @media all and (min-width: 66em) {
-    @import "layout-large";
-  }
-  @media all and (min-width: 45em) {
-    @import "layout-footer";
-  }
+}
+@media all and (min-width: 45em) and (max-width: 49em) {
+  @import "layout-medium";
+}
+@media all and (min-width: 50em) {
+  @import "layout-large";
+}
+@media all and (min-width: 45em) {
+  @import "layout-footer";
 }
 .lt-ie9 {
   @import "layout-large";

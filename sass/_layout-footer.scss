@@ -1,3 +1,6 @@
+.contact li {
+  display: inline;
+}
 section.dues {
   @include zen-grid-item(5, 1); // Span 1 columns starting in 1st column
 }
