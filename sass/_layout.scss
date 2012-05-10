@@ -17,16 +17,16 @@ body {
     }
   }
 }
-@media all and (min-width: 45em) and (max-width: 49em) {
+@media all and (min-width: 45em) and (max-width: 55em) {
   @import "layout-medium";
 }
-@media all and (min-width: 50em) {
-  @import "layout-large";
-}
 @media all and (min-width: 45em) {
-  @import "layout-footer";
+  @import "layout-med-lge";
+}
+@media all and (min-width: 55em) {
+  @import "layout-large";
 }
 .lt-ie9 {
   @import "layout-large";
-  @import "layout-footer";
+  @import "layout-med-lge";
 }
