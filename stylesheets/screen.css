@@ -511,6 +511,10 @@ body footer {
     font-size: 1.25em;
   }
 }
+/* line 20, ../sass/_layout.scss */
+body header h2, body header p {
+  display: inline;
+}
 
 @media all and (min-width: 45em) and (max-width: 55em) {
   /* line 2, ../sass/_layout-medium.scss */
@@ -722,61 +726,67 @@ body footer {
   clear: left;
 }
 
-/* line 31, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 body {
   background: #f0a830 url(../img/582552.png) repeat;
   box-shadow: 0px 0px 3px #333;
 }
 
-/* line 36, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 header {
   background-color: #f07818;
 }
 /* line 11, ../sass/_base.scss */
 header h1, header h2, header h3, header h4, header h5, header h6 {
   color: #fff;
+  text-shadow: 1px 2px 1px #5e412f;
 }
-/* line 14, ../sass/_base.scss */
+/* line 15, ../sass/_base.scss */
 header a {
-  color: #246091;
+  color: #5e412f;
+  text-shadow: none;
 }
-/* line 16, ../sass/_base.scss */
-header a:visited {
+/* line 19, ../sass/_base.scss */
+header a:hover, header a:visited {
   color: #265d5a;
 }
 
-/* line 39, ../sass/_base.scss */
+/* line 46, ../sass/_base.scss */
 [role=main] {
   background-color: #f3bc60;
 }
-/* line 41, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 [role=main] section {
   padding: 5px;
 }
-/* line 24, ../sass/_base.scss */
+/* line 27, ../sass/_base.scss */
+[role=main] section h1, [role=main] section h2, [role=main] section h3, [role=main] section h4, [role=main] section h5, [role=main] section h6 {
+  color: #5e412f;
+}
+/* line 30, ../sass/_base.scss */
 [role=main] section a {
   color: #265d5a;
 }
-/* line 26, ../sass/_base.scss */
-[role=main] section a:visited {
+/* line 33, ../sass/_base.scss */
+[role=main] section a:hover, [role=main] section a:visited {
   color: #1a4568;
 }
 
-/* line 45, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 footer {
   background-color: #5e412f;
   color: #fff;
 }
-/* line 48, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 footer a {
   color: #f0a830;
 }
-/* line 50, ../sass/_base.scss */
-footer a:visited {
+/* line 58, ../sass/_base.scss */
+footer a:hover, footer a:visited {
   color: #f3bc60;
 }
 
-/* line 55, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 .dues img {
   margin-right: 1em;
 }
