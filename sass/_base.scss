@@ -10,9 +10,12 @@ $deepwater: darken($dark-blue, 10%);
   background-color: $orange;
   h1, h2, h3, h4, h5, h6 {
     color: #fff;
+    text-shadow: 1px 2px 1px $brown;
   }
   a {
-    color: $dark-blue;
+    color: $brown;
+    text-shadow: none;
+    &:hover,
     &:visited {
       color: $pondwater;
     }
@@ -21,8 +24,12 @@ $deepwater: darken($dark-blue, 10%);
 
 @mixin content-item {
   padding: 5px;
+  h1, h2, h3, h4, h5, h6 {
+    color: $brown;
+  }
   a {
     color: $pondwater;
+    &:hover,
     &:visited {
       color: $deepwater;
     }
@@ -47,6 +54,7 @@ footer {
  color: #fff;
   a {
     color: $light-orange;
+    &:hover,
     &:visited {
       color: $lighter-orange;
     }

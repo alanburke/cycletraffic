@@ -16,6 +16,11 @@ body {
       font-size: 1.25em;
     }
   }
+  header {
+    h2, p {
+      display: inline;
+    }
+  }
 }
 @media all and (min-width: 45em) and (max-width: 55em) {
   @import "layout-medium";
