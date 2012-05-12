@@ -61,6 +61,11 @@ footer {
     }
   }
 }
+
+@import "compass/typography/lists/bullets";
+section.contact ul {
+  @include no-bullets;
+}
 .dues img {
   margin-right: 1em;
   }
