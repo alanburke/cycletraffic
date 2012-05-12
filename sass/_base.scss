@@ -1,12 +1,13 @@
-$orange: #FA6900;
-$light-orange: #F38630;
-$lighter-orange: #F6C79C;
-$light-gray: #95A7DD;
+$orange: #F07818;
+$brown: #5E412F;
+$light-orange: #F0A830;
+$lighter-orange: lighten($light-orange, 10%);
+$light-gray: #FCEBB6;
 $dark-blue: #246091;
 $pondwater: darken(#A7DBD8, 50%);;
 $deepwater: darken($dark-blue, 10%);
 @mixin dark {
-  background-color: $light-orange;
+  background-color: $orange;
   h1, h2, h3, h4, h5, h6 {
     color: #fff;
   }
@@ -16,7 +17,6 @@ $deepwater: darken($dark-blue, 10%);
       color: $pondwater;
     }
   }
-
 }
 
 @mixin content-item {
@@ -29,7 +29,7 @@ $deepwater: darken($dark-blue, 10%);
   }
 }
 body {
-  background: darken($lighter-orange, 10%);
+  background: darken($lighter-orange, 10%) url(../img/582552.png) repeat;
   box-shadow: 0px 0px 3px #333;
 }
 
@@ -43,11 +43,12 @@ header {
   }
 }
 footer {
- background-color: #9A6A3D;
+ background-color: $brown;
+ color: #fff;
   a {
-    color: $dark-blue;
+    color: $light-orange;
     &:visited {
-      color: $pondwater;
+      color: $lighter-orange;
     }
   }
 }
