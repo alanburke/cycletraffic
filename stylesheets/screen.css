@@ -724,30 +724,30 @@ body footer {
 
 /* line 31, ../sass/_base.scss */
 body {
-  background: #f2ad6d;
+  background: #f0a830 url(../img/582552.png) repeat;
   box-shadow: 0px 0px 3px #333;
 }
 
 /* line 36, ../sass/_base.scss */
 header {
-  background-color: #f38630;
+  background-color: #f07818;
 }
-/* line 10, ../sass/_base.scss */
+/* line 11, ../sass/_base.scss */
 header h1, header h2, header h3, header h4, header h5, header h6 {
   color: #fff;
 }
-/* line 13, ../sass/_base.scss */
+/* line 14, ../sass/_base.scss */
 header a {
   color: #246091;
 }
-/* line 15, ../sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 header a:visited {
   color: #265d5a;
 }
 
 /* line 39, ../sass/_base.scss */
 [role=main] {
-  background-color: #f6c79c;
+  background-color: #f3bc60;
 }
 /* line 41, ../sass/_base.scss */
 [role=main] section {
@@ -764,18 +764,19 @@ header a:visited {
 
 /* line 45, ../sass/_base.scss */
 footer {
-  background-color: #9A6A3D;
+  background-color: #5e412f;
+  color: #fff;
 }
-/* line 47, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 footer a {
-  color: #246091;
+  color: #f0a830;
 }
-/* line 49, ../sass/_base.scss */
+/* line 50, ../sass/_base.scss */
 footer a:visited {
-  color: #265d5a;
+  color: #f3bc60;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 .dues img {
   margin-right: 1em;
 }
