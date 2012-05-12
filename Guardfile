@@ -8,4 +8,5 @@ end
 
 guard 'livereload' do
   watch(%r{stylesheets/.+\.(css|js|html)})
+  watch(%r{\.(html)})
 end
