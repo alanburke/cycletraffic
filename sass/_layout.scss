@@ -2,6 +2,7 @@ $zen-column-count: 12;
 @import "zen";
 body {
   @include zen-grid-container;
+  margin: 5px 10px;
   header,
   [role=main],
   footer {
