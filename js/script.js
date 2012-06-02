@@ -10,12 +10,8 @@ $(document).ready(function() {
   });
   twitter.starting();
 //  $.getJSON("http://search.twitter.com/search.json?q='alanjosephburke'&rpp=10&callback=?", function(data) {
-  $.getJSON("http://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=alanjosephburke&count=5&callback=?", function(data) {
+  $.getJSON("http://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=alanjosephburke&count=6&callback=?", function(data) {
     twitter.render(data);
     console.log(data);
   });
 });
-
-
-
-
