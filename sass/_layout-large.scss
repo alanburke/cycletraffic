@@ -14,4 +14,16 @@ body {
   &:nth-child(3n+3) {
     @include zen-grid-item(4, 9);
   }
+  // Spread out tweets
+  &.tweets {
+    @include zen-grid-item(12, 1);
+    li[data-template] {
+     float: left;
+     width: 30%;
+     margin-right: 3.33%;
+     &:nth-child(3n) {
+       @include zen-clear;
+     }
+    }
+  }
 }

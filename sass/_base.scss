@@ -69,7 +69,8 @@ footer {
 }
 
 @import "compass/typography/lists/bullets";
-section.contact ul {
+section.contact ul,
+section.tweets ul{
   @include no-bullets;
 }
 .dues img {
