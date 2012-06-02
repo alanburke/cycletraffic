@@ -20,6 +20,7 @@
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>pretty old!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
+<div class="container">
 <header>
   <h1> Hello! I'm Alan. I'm a website developer specialising in <a href="http://www.drupal.org">Drupal</a>, from Galway, Ireland</h1>
   <h2>I work for <a title="Drupal Development, Ireland" href="http://annertech.com">Annertech</a>, where we build <a href="http://annertech.com/portfolio">great websites</a> and help people get the most from the Internet.</h2>
@@ -70,7 +71,7 @@
   </section>
 
   <section class="speaking">
-    <h3>Preaching to the masses at&hellip;</h3>
+    <h3>Preaching to the masses&hellip;</h3>
     <ul>
       <li><a href="./assets/pdfs/responsive.pdf">A responsive theme in 50 lines of code</a> - 
       <a href="http://www.drupalcampireland.org/">Drupalcamp Dublin</a> - May 2012</li>
@@ -91,15 +92,13 @@
 
   <section class="tweets">
     <h3>All a twittering</h3>
-    <ol id="tweets">
+    <ul id="tweets">
         <li data-template>
-            <img src="assets/images/alan_reasonably_small.jpg" data-src="{{user.profile_image_url}}" />
-            <h3>{{from_user_name}}</h3>
             <p>{{text}}<span>, {{created_at|date 'HH:mm on EEEE'}}</span></p>
         </li>
         <p></p>
         <li data-template-fallback><a href="http://twitter.com/alanjosephburke">@alanjosephburke</a></li>
-    </ol>
+    </ul>
   </section>
 
 </div>
@@ -133,6 +132,7 @@
   <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
 <![endif]-->
 
+</div>
 </body>
 
 </html>
