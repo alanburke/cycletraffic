@@ -3,18 +3,12 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
-
-/* THANKS */
-  Names (& URL):
+  Alan Burke
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+  Components: Modernizr, jQuery, Compass, Sass, HTML5 Boilerplate
+  Software: vim
 
 
 
