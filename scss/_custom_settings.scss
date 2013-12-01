@@ -1,0 +1,13 @@
+$header-font-family: Oxygen, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+/* Colurs from http://www.colourlovers.com/pattern/582552/saturday_warmth */
+$orange: #F07818;
+$brown: #5E412F;
+$light-orange: #F0A830;
+$lighter-orange: lighten($light-orange, 10%);
+$light-gray: #FCEBB6;
+$dark-blue: #246091;
+$pondwater: darken(#A7DBD8, 50%);;
+$deepwater: darken($dark-blue, 10%);
+
+$primary-color: $orange;

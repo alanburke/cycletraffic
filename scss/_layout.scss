@@ -1,0 +1,6 @@
+body {
+  @include grid-row();
+  .container {
+    @include grid-column(12);
+  }
+}
