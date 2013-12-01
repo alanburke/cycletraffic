@@ -1,0 +1,14 @@
+li a { 
+  position: relative;
+  display: inline;
+  padding-top: 0.1em;
+}
+li a[href^=http]:hover:after {
+  content: "↪ " attr(href);
+  position: absolute;
+  top: -1em;
+  left: 0;
+  font-size: 0.5em;
+  white-space: nowrap;
+  opacity: 0.8;
+}
