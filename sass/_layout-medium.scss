@@ -1,9 +1,0 @@
-[role=main] section {
-  &:nth-child(2n+1) {
-    @include zen-grid-item(6, 1); // Span 1 columns starting in 1st column
-    @include zen-clear;
-  }
-  &:nth-child(2n+2) {
-    @include zen-grid-item(6, 7);
-  }
-}
