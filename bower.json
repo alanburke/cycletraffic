@@ -1,0 +1,7 @@
+{
+  "name": "Cycletraffic",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "normalize.scss": "~2.1.3"
+  }
+}
